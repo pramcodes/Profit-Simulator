@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  
+  <div class="frame">
+    <h1>PROFIT PILOT</h1>
+    <div class="form">
+      <h2>Upload CSV File </h2>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+          <input type="file" id="fileInput" name="file" accept=".csv" onchange="uploadCSV(this)"  >
+
+          <button type="submit" class="btn-upload" >Upload</button>
+        </form>
+
+      
+      
+      <!-- <input type="file" id="fileInput" accept=".csv" onchange="uploadCSV(this)"> -->
+      <div class="data-text">
+        <pre id="csvDisplay"> </pre> 
+      </div>
+
+      <div class="data-text">
+        <pre id="stats"> {% if var_value %}{{ var_value }}{% endif %}</pre> 
+      </div>
+
+    </div>
+
+    <div class="button-generate">
+      <button id="btn-generate" class="btn-generate" onclick="generate()">Display graph</button> 
+    </div>
+
+
+    <div class="button-detail">
+      <button id="btn-generate" class="btn-generate" onclick="detail()">Trends</button> 
+    </div>
+
+    <div class="btn-clear">
+      <button id="btn-clear" class="btn-generate" onclick="clearPage()">Clear Page</button>
+    </div>
+
+    
+    <div class="graph">
+      <img id="generated-image" >
+    </div>
+
+    <div class="graph2">
+      <img id="generated-image2" >
+    </div>
+
+
+  </div>
+  
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
