@@ -2,7 +2,7 @@
 
 ## Time Series Financial Data Modeling Application
 
-Profit-Simulator is a web application designed for time series financial data modeling. It provides a user-friendly interface for analyzing and visualizing financial data, making it easier for users to gain insights into profit trends and patterns with added value-at-risk statistics.
+Profit-Simulator is a web application designed for time series financial data modeling. It provides a user-friendly interface for analyzing and visualizing financial data, making it easier for users to gain insights into profit trends and patterns with added value-at-risk statistic.
 
 ## Features
 
@@ -23,10 +23,22 @@ Follow these steps to get started with the Profit-Simulator:
 
 2. **install dependencies:**
    ```bash
-   pip install -r requirements.txt
+   pip install numpy , pandas , scikit , prophet
 
 3. **Run the application:**
+(Make sure python is installed)
    ```bash
    python processing.py
 Open your web browser and navigate to [http://127.0.0.1:5000/]
 
+## Folder Structure
+
+- **`static/`:** Contains static files like CSS, JS, and images.
+- **`templates/`:** Stores HTML templates used by Flask.
+- **`processing.py`:** Main Flask application script.
+
+## Acknowledgments
+   - **`Synthesis Software Technologies`:** This was my chosen vacation work project that I developed during the December-January vacation work season.
+
+## Presentation
+   - you can view my presentation here [Profit Simulator Journey](https://www.canva.com/design/DAF7ioIpe_U/rsmyrO-dvmhscHYNc6euSQ/view?utm_content=DAF7ioIpe_U&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#1)
