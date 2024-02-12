@@ -22,12 +22,12 @@ Follow these steps to get started with the Profit-Simulator:
    
 2. **install dependencies:**
    ```bash
-   pip install numpy , pandas , scikit , prophet
+   pip install numpy , pandas ,scipy , scikit , prophet
 
 3. **Run the application:**
 (Make sure python is installed)
    ```bash
-   python processing.py
+   python Processing.py
 Open your web browser and navigate to [http://127.0.0.1:5000/]
 
 ## Folder Structure
