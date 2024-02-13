@@ -14,7 +14,7 @@ Profit-Simulator is a web application designed for time series financial data mo
 
 ## Getting Started
 
-Follow these steps to get started with the Profit-Simulator:
+Follow these steps to get started with the Profit-Simulator: (Make sure python and pip is installed)
 
 1. **Clone the Repository:**
    ```bash
@@ -22,10 +22,9 @@ Follow these steps to get started with the Profit-Simulator:
    
 2. **install dependencies:**
    ```bash
-   pip install numpy , pandas ,scipy , prophet
+   pip install numpy , pandas ,scipy, plotly , prophet
 
 3. **Run the application:**
-(Make sure python is installed)
    ```bash
    cd webApp
    python Processing.py
