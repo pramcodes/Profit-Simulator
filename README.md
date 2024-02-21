@@ -40,4 +40,4 @@ Open your web browser and navigate to [http://127.0.0.1:5000/]
    - **`Synthesis Software Technologies`:** This was my chosen vacation work project that I developed during the December-January vacation work season.
 
 ## Presentation
-   - you can view my presentation here [Profit Simulator Journey](https://www.canva.com/design/DAF7ioIpe_U/rsmyrO-dvmhscHYNc6euSQ/view?utm_content=DAF7ioIpe_U&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#1)
+   - You can view my presentation here [Profit Simulator Journey](https://www.canva.com/design/DAF7ioIpe_U/rsmyrO-dvmhscHYNc6euSQ/view?utm_content=DAF7ioIpe_U&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#1)
