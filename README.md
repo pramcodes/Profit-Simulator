@@ -9,6 +9,7 @@ Profit-Simulator is a web application designed for time series financial data mo
 - **Upload CSV Data:** Easily upload financial data in CSV format to start analyzing your profit trends. Please use the fields "Date,Profit" formatted as "yyyymmdd,float"
 
 - **Interactive Dashboard:** Visualize and interpret time series data through an intuitive and interactive dashboard.
+  ![Profit Simulator dashboard](Interface.png)
 
 - **Graph Generation:** Generate graphs and charts to understand profit trends over time.
 
