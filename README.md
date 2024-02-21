@@ -22,7 +22,7 @@ Follow these steps to get started with the Profit-Simulator: (Make sure python a
    
 2. **install dependencies:**
    ```bash
-   pip install numpy , pandas ,scipy, plotly , prophet
+   pip install numpy , pandas ,scipy, plotly , prophet , Flask
 
 3. **Run the application:**
    ```bash
